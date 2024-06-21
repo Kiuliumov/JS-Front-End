@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+
+        .box-model{
+            max-width: 600px;
+            margin: 4em auto;
+        }
+
+        .box-model div{
+            border: 1px dashed black;
+            padding: 0.5em 2em 2em 2em;
+        }
+
+        .box-model div:before{
+            display: block;
+            padding-bottom: 0.5em;
+            margin-left: -1em;
+        }
+
+        .box-model .margin{
+            background: #FF966F;
+        }
+
+        .box-model .border{
+            background: #FFE8C6;
+        }
+
+        .box-model .padding{
+              background: #85EB85;
+        }
+
+        .box-model .content{
+            text-align: center;
+            background: #A3D2E2;
+            padding: 1em;
+        }
+
+
+        .box-model .margin::before{
+            display: block;
+            content: 'margin';
+        }
+
+        .box-model .border::before{
+            display: block;
+            content: 'border';
+        }
+
+        .box-model .padding::before{
+            display: block;
+            content: 'padding';
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box-model">
+        <div class="margin">
+            <div class="border">
+                <div class="padding">
+                    <div class="content">
+                        <p>Content</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
