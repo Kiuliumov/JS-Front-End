@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+}
+
+
+.container {
+    display: flex;
+    background-color: white;
+    padding: 2em;
+    margin: 0 auto;
+    margin-top: 1em;
+    max-width: 1000px;
+    gap: 2em;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container > * {
+    border: 1px solid black;
+    padding: 2em;
+}
+
+.container > header {
+    flex: 100%;
+}
+
+.container > main{
+    flex: 50%;
+}
+
+.container > .sidebar{
+    flex: 20%;
+}
+
+.container > footer{
+    flex: 100%;
+}
