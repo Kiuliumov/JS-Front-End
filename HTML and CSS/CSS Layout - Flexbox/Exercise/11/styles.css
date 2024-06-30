@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #eee;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 2em;
+    display: inline-block;
+    margin: 15%;
+}
+
+.main{
+    margin: 2em;
+}
