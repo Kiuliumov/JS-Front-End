@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: #ccc;
+    min-height: 100vh;
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+main{
+    max-width: 600px;
+    max-height: 800px;
+    background: white;
+    margin: auto;
+    padding: 2em;
+    box-shadow: 1em 1em, rgb(0,0,0,-0.1);
+}
+
+main > *{
+    margin-bottom: 1em;
+}

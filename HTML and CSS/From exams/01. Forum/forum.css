@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: 16px/1.5 'Inter', sans-serif;
+    background-image: url('images/background.jpg');
+}
+
+.container{
+}
+
+
+.fa-quote-left-alt:before, .fa-quote-left:before {
+    content: "\f10d";
+}
+
+.left-item{
+    background-color: white;
+    max-width: 714px;
+    height: 250px;
+}
