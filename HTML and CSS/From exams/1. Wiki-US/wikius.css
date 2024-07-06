@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Agbalumo', sans-serif;   
+}
+
+
+.container{
+    max-width: 840px;
+    max-height: 700px;
+    background-color: #D5EBEA;
+    padding: 1em;
+    border: 1px solid black;
+    margin: 5em auto;
+}
+
+header{
+    text-align: center;
+}
+
+hr{
+    border-color: black;
+    margin-bottom: 0;
+}
+
+main{
+    background-color: white;
+    padding: 1em;
+    max-height: 400px;
+    display: flex;
+    gap: 1em;
+
+}
+
+
+main .card{
+    border: 1px solid black;
+    text-align: center;
+    padding: 0.9em;
+}
+
+main .card img{
+    max-width: 300px;
+    margin-bottom: 1em;
+}
+
+main .card p{
+    font-size: 9.5px;
+    max-width: 280px;
+    text-align: left;
+    text-indent: 2em;
+}
+
+main .content{
+    margin-top: 1em;
+    text-indent: 2em;
+}
+
+main .content .first{
+    margin-bottom: 1em;
+}
+
+.continuation{
+    background-color: white;
+    height: 40px;
+}
+
+.facts{
+    background-color: black;
+    color: white;
+    width: 340px;
+    height: 40px;
+    text-align: center;
+}
+
+footer *{
+    margin-top: 1em;
+}
