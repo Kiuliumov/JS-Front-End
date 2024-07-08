@@ -7,81 +7,77 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
-}
-
-.container{
-    border: 1px solid black;
-    background-color: rgba(115, 207, 243, 0.87);
-    max-width: 1200px;
-    max-height: 700px;
-    margin: 5em auto;
-    padding: 2em;
+    font: 16px/1.5 'Inter', sans-serif;
+    height: 100vh;
     display: flex;
+
 }
 
-.container .main{
-    margin-top: 15em;
+img{
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
-.container h1{
-    width: 450px;
-    font-size: 3em;
-}
-
-.container .text{
-    padding: 2em 0 2em 0;
-}
-
-
-.container .buttons{
-    margin-bottom: 15em;
-    display: flex;
-    gap: 1em;
-    max-width: 350px;
-}
-
-.buttons .get-started{
-    padding: 1em;
-    background-color: rgb(66, 187, 66);
-    border: 1px solid black;
-    border-radius: 0.2em;
-    flex-basis: 150px;
-    text-align: center;
-    cursor: pointer;
-}
-
-
-.buttons .learn-more{
-    padding: 1em;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 0.2em;
-    flex-basis: 150px;
-    text-align: center;
-    cursor: pointer;
-}
-
-
-.buttons a{
+a{
+    display: block;
     text-decoration: none;
     color: inherit;
 }
 
-.buttons .get-started:hover{
-    background-color: black;
+
+.card{
+    background-color: #85DCFF;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 613px;
+    width: 1080px;
+    padding: 2em;
+    gap: 2em;
+}
+
+.card h1{
+    font-size: 45px;
+}
+
+.card .text{
+    padding: 2em 0;
+    text-wrap: nowrap;
+}
+
+.buttons{
+    display: flex;
+    gap: 2em;
+}
+
+.buttons a{
+    padding: 1em 2em;
+    border-radius: 4px;
+}
+
+.get-started{
+    border: 1px solid black;
+    background: #42AA59;
+}
+
+
+.learn-more{
+    background-color: white;
+}
+
+
+.get-started:hover{
     color: white;
+    background-color: black;
 }
 
-.image-container{
-    display: inline-block;
-    align-self: flex-end;
-    margin-left: 8em;
+
+.card .image-container{
+    height: 450px;
+    width: 400px;
     margin-bottom: 5em;
-}
-
-.image-container img{
-    max-width: 400px;
-    max-height: 500px;
+    align-self: flex-end;
     box-shadow: 5px 5px 10px 0px #000000;
 }
+

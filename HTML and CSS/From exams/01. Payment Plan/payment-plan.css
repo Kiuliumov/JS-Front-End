@@ -7,93 +7,101 @@
 }
 
 body{
-    font: 14px/1.5 'Inter', sans-serif;
+    font: 16px/1.5 'Inter', sans-serif;
     background-image: url('image/background.jpg');
     display: flex;
     align-items: center;
-    gap: 30px;
-    justify-content: flex-start;
+    gap: 2em;
+    justify-content: center;
 }
 
 a{
     text-decoration: none;
-    font-size: inherit;
+    color: inherit;
+}
+
+.plan{
+    margin-top:8em;
 }
 
 
-.item{
-    background: white;
-    max-width: 517px;
-    max-height: 662px;
+
+.basic{
+    height: 640px;
+    width: 515px;
+    background-color: white;
     padding: 2em;
-    flex: 0 0 auto;
-    margin-top: 5em;
-    margin-right: 0;
 }
 
-.item:first-child{
-    margin-left: 140px;
+.standard{
+    width: 515px;
+    height: 680px;
+    background-color: white;
+    padding: 2em;
 }
 
-.item h1{
+.premium{
+    width: 515px;
+    height: 670px;
+    background-color: white;
+    padding: 2em;
+}
+
+
+.plan h2{
     text-transform: uppercase;
-    padding-bottom: 1em;
+    font-size: 32px;
 }
 
-.item #header-p{
-    font-size: 25px;
+.plan .price{
+    font-size: 24px;
 }
 
-#big{
-    font-size: 72px;
+.price .big{
     font-weight: bold;
+    font-size: 90px;
 }
 
-.item #small{
-    font-size: 14px;
-    padding-top: 1em;
-    padding-bottom: 1em;
+.small{
     opacity: 0.8;
-    padding-bottom: 2em;
+    padding: 1em 0 2em 0;
 }
 
-.item ul{
+.basic ul, .standard ul{
     list-style-type: none;
-    font-size: 20px;
-    padding-bottom: 5em;
+    font-size: 21px;
+    padding-bottom: 3em;
 }
 
-.item ul li{
-    padding-top: 0.5em;
+.premium ul{
+    list-style-type: none;
+    font-size: 21px;
+    padding-bottom: 1em;
 }
 
-.item ul li:before{
-  content:"\2713\0020";
-  font-weight: bold;
+ul li{
+    display: flex;
+    gap: 0.4em
+}
 
+ul li p{
+    max-width: 40ch;
+    padding-bottom: 0.5em;
+}
+
+.premium ul li .smaller-text{
+    max-width: 30ch;
+}
+
+ul li:before{
+    content: "\02713"
 }
 
 .button{
-    display: block;
-    padding: 1em;
-    max-width: 150px;
-    text-align: center;
-    background-color: black;
+    padding: 1em 2em;
     color: white;
-    font-size: 16px;
-    border-radius: 0.3em;
-    margin-bottom: 2em;
-}
-
-.second{
-   max-height: 900px;
-}
-
-.second h1{
-    margin-top: 1em;
-}
-
-.third{
-    max-height: 700px;
+    background: black;
+    display: inline-block;
+    border-radius: 0.2em;
 }
 

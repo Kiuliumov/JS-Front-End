@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: 14px/1.5 'PT Serif', sans-serif;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+header{
+    max-height: 970px;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 2em;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5em;
+}
+
+.nav-buttons{
+    display: flex;
+    gap: 3em;
+    text-transform: uppercase;
+}
+
+#logo{
+    flex: 0 0 100px;
+    padding-left: 1em;
+}
+
+header main{
+    padding-left: 8em;
+}

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font: 20px/1.5 'Inter', sans-serif;
+    background-color: #ADE2DF;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+nav{
+    background-color: white;
+    display: flex;
+    max-height: 150px;
+    padding: 2em;
+    justify-content: space-between;
+}
+
+
+.navigation{
+    display: flex;
+    gap: 4em;
+    margin-left: 7em;
+}
+
+.buttons{
+    display: flex;
+    gap: 2em;
+    align-items: baseline;
+}
+
+.singup-button{
+    max-width: 140px;
+    max-height: 70px;
+    background-color: #ADE2DF;
+    border-radius: 0.5em;
+    padding: 1em;
+    text-align: center;
+
+}
+
+.banner{
+    text-align: center;
+    padding: 4em
+}
+
+.banner header *{
+    padding-bottom: 0.3em;
+}
+
+.banner header h1{
+    font-size: 80px;
+}
+
+.banner header p{
+    font-size: 24px;
+}
+
+
+.download-buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    gap: 1em;
+    padding-bottom: 1em;
+}
+
+.download-buttons > *{
+    padding: 2em;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+    border-radius: 0.5em;
+}
+
+.stats{
+    background-color: white;
+    max-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em;
+}
+
+
+.box{
+    border-left: 1px solid #EDEDED;
+    text-align: center;
+    padding: 2em;
+}
+
+.box h1{
+    font-size: 48px;
+    padding-bottom: 1em;
+}
+
+.box p{
+    padding-bottom: 4em;
+    font-size: 24px;
+}
+
+.border-right{
+    border-right: 1px solid #EDEDED;
+}
+
+.bonuses{
+    height: 650px;
+    background-color: #ADE2DF;
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+}
+
+.bonus-image-container{
+    border: 1px dashed #98B8B6;
+    flex-basis: 500px;
+}
+
+.bonus-image-container img{
+    margin-left: 2em;
+}
+.bonuses .main{
+    margin-top: 4em;
+}
+.bonuses h1{
+    font-size: 52px;
+}
+
