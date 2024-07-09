@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+header, .quote{
+    font: 18px/1.5 'Cormorant Infant', sans-serif;
+}
+
+header h1{
+    font-size: 90px;
+}
+
+.support{
+    font: 16px/1.5 'Karla', sans-serif;
+}
