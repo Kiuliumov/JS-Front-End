@@ -1,0 +1,17 @@
+.quote{
+    max-height: 700px;
+    padding: 4em 30em;
+    background-color: #F8F0E9;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote > p{
+    padding-bottom: 5em;
+}
+
+.quote blockquote{
+    font-size: 55px;
+    max-width: 30ch;
+    font-weight: bold;
+}
