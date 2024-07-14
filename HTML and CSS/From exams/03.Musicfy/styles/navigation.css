@@ -1,0 +1,20 @@
+nav{
+    background: black;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#logo{
+    flex-basis: 1%;
+}
+
+.nav-content{
+    display: flex;
+    color: white;
+    gap: 2em;
+    align-self: center;
+    justify-self: flex-end;
+    padding-right: 1em;
+}

@@ -1,0 +1,26 @@
+.enterprise-section{
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: #D9D9D9;
+}
+.enterprise-section img{
+    max-width: 500px;
+    flex-grow: 0;
+}
+
+.enterprise-section .item{
+    display: flex;
+    gap: 1em;
+}
+
+.enterprise-section .item .main > *{
+    margin-bottom: 2em;
+}
+
+.lower-opacity{
+    opacity: 0.8;
+    max-width: 85ch;
+}
+

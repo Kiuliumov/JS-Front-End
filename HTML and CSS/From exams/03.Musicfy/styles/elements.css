@@ -1,0 +1,13 @@
+body{
+    font: 16px/1.5 Lato, sans-serif;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}

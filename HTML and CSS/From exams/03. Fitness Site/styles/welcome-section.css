@@ -1,0 +1,50 @@
+.flex-section{
+    padding: 4em;
+    height: 450px;
+}
+
+.flex-section hr{
+    width: 50px;
+    border-top: 3px solid red;
+}
+
+.flex-section img{
+    max-width: 60px;
+}
+
+
+.flex-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flex-heading h1{
+    padding-bottom: 1em;
+    font-size: 40px;
+}
+
+.flex-container{
+    display: flex;
+    gap: 15em;
+    padding-top: 2em;
+    justify-content: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    flex: 1;
+    text-align: center;
+}
+
+.heading{
+    color: red;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.item p{
+    max-width: 34ch;
+}

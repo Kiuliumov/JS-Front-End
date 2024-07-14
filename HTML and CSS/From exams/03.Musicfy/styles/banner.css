@@ -1,0 +1,15 @@
+.plans-banner{
+    height: 250px;
+    background-color: #1DB954;
+    text-align: center;
+    padding: 4em;
+    color: white;
+}
+
+#absolute-position-image{
+    max-width: 600px;
+    background: transparent;
+    position: absolute;
+    top: 11%;
+}
+

@@ -1,0 +1,16 @@
+.coaches{
+    background-color: #EFEFEF;
+    height: auto;
+}
+
+.coaches img{
+    max-width: 350px;
+}
+
+.coaches .item .heading{
+    opacity: 1;
+}
+
+.coaches .item p{
+    opacity: 0.4;
+}

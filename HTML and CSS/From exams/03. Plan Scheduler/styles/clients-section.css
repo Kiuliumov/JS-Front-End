@@ -1,0 +1,24 @@
+.clients-section{
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    height: 350px;
+    padding: 5em;
+    text-align: center;
+}
+
+
+.clients-section .big-font{
+    font-size: 64px;
+    color: #FF7E4E;
+    padding-bottom: 1em;
+    font-weight: bold;
+}
+
+.clients-section h4{
+    font-size: 1.2em;
+}
+
+.clients-section .item p{
+    opacity: 0.8;
+}

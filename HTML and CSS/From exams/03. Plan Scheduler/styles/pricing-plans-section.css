@@ -1,0 +1,85 @@
+.pricing-plans-section{
+    padding: 0 5em;
+    height: 700px;
+    background-color: #F5F5F5;
+}
+
+.flex-container{
+    display: flex;
+    background-color: white;
+    height: 100%;
+    padding: 4em;
+    gap: 9em
+}
+
+.pricing-plan h1{
+    padding-bottom: 1em;
+}
+
+.pricing-plan p{
+    max-width: 43ch;
+    font-size: 1.1em;
+}
+
+.boxes{
+    display: flex;
+    gap: 1em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.box{
+    height: 580px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 1em;
+    align-items: center;
+}
+
+.perks *{
+    padding-top: 1em;
+}
+
+.perks{
+    margin-bottom: 2em;
+}
+
+.box h4{
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+.big{
+    font-size: 64px;
+}
+.bold{
+    font-weight: bold;
+}
+.free{
+    background-color: #FF7E4E;
+}
+
+.paid{
+    color: white;
+    background-color: black;
+}
+
+.free .learn-more-button{
+    background-color: black;
+    color: white;
+}
+
+
+.paid .learn-more-button{
+    background-color: white;
+    color: black;
+}
+
+.learn-more-button{
+    display: inline-block;
+    padding: 1em 2em;
+    max-width: 300px;
+    border-radius: 0.4em;
+}

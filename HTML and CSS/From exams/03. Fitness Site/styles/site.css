@@ -1,0 +1,15 @@
+@import url(reset.css);
+
+@import url(typography.css);
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@import url(top-bar.css);
+
+@import url(hero-section.css);
+
+@import url(welcome-section.css);
+
+@import url(coaches-section.css);
+
+@import url(footer.css);
