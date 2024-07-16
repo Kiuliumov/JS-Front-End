@@ -1,0 +1,11 @@
+.image-section{
+    background-color: cyan;
+}
+
+.image-section .container{
+    height: 650px;
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -6em;
+}

@@ -1,0 +1,22 @@
+.flex-content-text{
+    background-color: #353434;
+}
+
+.flex-content-text .container{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.flex-content-text h4{
+    font-size: 24px;
+    padding-bottom: 1em;
+    color: white;
+}
+
+
+.flex-content-text p{
+    color: #5B5956;
+}
