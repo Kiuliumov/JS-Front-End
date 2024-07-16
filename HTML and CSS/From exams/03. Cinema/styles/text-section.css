@@ -1,0 +1,13 @@
+.text-section{
+    background-color: aquamarine;
+}
+
+.text-section .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    max-width: 135ch;
+}
+
