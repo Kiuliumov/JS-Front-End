@@ -42,7 +42,6 @@ a{
     flex-basis: 100%;
 }
 
-
 .low-opacity{
     opacity: 0.8;
 }
@@ -76,4 +75,18 @@ a{
 .learn-more-button:hover{
     background-color: black;
     color: white;
+}
+
+@media (max-width: 800px){
+
+
+    .container{
+        max-width: 80vw;
+        font-size: 12px;
+    }
+
+    .image{
+        min-width: 20vw;
+    }
+    
 }

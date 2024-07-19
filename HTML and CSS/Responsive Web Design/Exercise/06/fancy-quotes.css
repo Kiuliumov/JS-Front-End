@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    background-color: #eee;
+    font: 16px / 1.5 "Lato", Verdana, sans-serif;
+}
+
+.container{
+    display: flex;
+    gap: 1em;
+    align-items: flex-start;
+    margin: auto;
+
+}
+
+
+.main-content{
+    display: flex;
+    gap: 1em;
+    max-height: 500px;
+    flex-direction: column;
+}
+
+.article{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    gap: 2em;
+    border-radius: 0.3em;
+    box-shadow: -0.2em 0.2em 0.5em 0 rgba(0, 0, 0, 0.05);
+    max-width: 800px;
+}
+
+
+.main-article i{
+    font-size: 4em;
+    margin-bottom: 0.5em;
+}
+
+.main-article .content{
+    opacity: 0.6;
+    margin-bottom: 2em;
+}
+
+.main-article .footer{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.article .image-container{
+    overflow: hidden;
+    flex: 0 0 24%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background: #090;
+    border: 5px solid #fff;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+}
+
+
+.vertical{
+    margin: auto;
+    flex-direction: column;
+    min-height: 600px;
+    max-width: 350px;
+    display: flex;
+}
+
+.vertical .main-article{
+    flex-direction: column;
+    margin: 0;
+}
+
+.vertical .image-container{
+    overflow: hidden;
+    flex: 0 0 100px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background: #090;
+    border: 5px solid #fff;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+    margin-right: 10em;
+}
+
+
+
+@media (max-width: 800px){
+
+    .container{
+        flex-direction: column;
+        gap: 15vh;
+        align-items: flex-start;
+    }
+
+
+    .vertical .main-article{
+        flex-direction: row;
+    }
+    
+    
+    .main-article .footer, .vertical.footer{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    .vertical .image-container, .article .image-container{
+        overflow: hidden;
+        flex: 0 0 24%;
+        aspect-ratio: 1 / 1;
+        border-radius: 50%;
+        background: #090;
+        border: 5px solid #fff;
+        box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+        margin-right: 0;
+    }
+
+    .vertical{
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        padding: 2em;
+        gap: 2em;
+        border-radius: 0.3em;
+        box-shadow: -0.2em 0.2em 0.5em 0 rgba(0, 0, 0, 0.05);
+        flex-direction: row;
+        min-height: 0;
+        margin: 0;
+    }
+
+
+    .article, .vertical{
+        max-width: 90vw;
+        max-height: 50vh;
+    }
+}

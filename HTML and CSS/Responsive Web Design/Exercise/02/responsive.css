@@ -1,0 +1,30 @@
+@media (max-width: 600px) {
+
+    .container{
+        width: 90vw;
+        background-color: white;
+    }
+
+    nav{
+        padding: 0;
+    }
+
+    nav ul{
+        flex-wrap: wrap;
+        gap: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    nav ul li{
+        flex-basis: 100%;
+        border-bottom: 1px solid #ccc;
+        padding: 1em;
+    }
+
+    .content{
+        flex-direction: column;
+        gap: 4em;
+    }
+
+}
