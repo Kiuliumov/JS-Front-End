@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+img{
+    display: block;
+    border: inherit;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+body{
+    font: 15px/1.5 'Open Sans', sans-serif;
+}
+
+.calculator{
+    margin: 10em auto;
+    max-width: 1300px;
+    max-height: 650px;
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 1em;
+    justify-content: center;
+}
+
+.calculator img{
+    max-width: 590px;
+    border: none;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+
+
+.main{
+    flex: 1;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main h1{
+    text-transform: uppercase;
+    padding: 2em;
+    font-size: 1.9em;
+}
+
+.buttons{
+    display: flex;
+    gap: 8em;
+    font-size: 16px;
+    margin-bottom: 2em;
+}
+
+.buttons *{
+    border: 1px solid black;
+    border-radius: 0.5em;
+    display: inline-block;
+    flex: 1;
+    width: 170px;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.first-form{
+    text-align: center;
+}
+
+
+.inputs{
+    display: flex;
+    gap: 36px;
+    margin-top: 1em;
+    justify-content: center;
+}
+
+.second-form{
+    margin: 1em;
+    text-align: center;
+}
+
+.second-form input{
+    width: 550px;
+    height: 25px;
+    margin-top: 1em;
+}
+
+.inputs select{
+    flex: 1 0 190px;
+}
+
+
+.standard-units-button{
+    background-color: lightgreen;
+}
+
+.metric-units-button{
+    background-color: #E0E0DF;
+}
+
+.third-form{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.inputs-third{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.fitness-feet{
+    flex: 1 0 280px;
+}
+
+.fitness-inches{
+    flex: 1 0 280px;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.forth-form *{
+    width: 580px;
+    height: 40px;
+    background-color: #05A2D3;
+    border-radius: 1rem;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.main-site{
+    background-color: #C1BDBA;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 24px/1.5 "Kode Mono", sans-serif;
+}
+
+
+input{
+    font: inherit;
+    display: block;
+    background-color: transparent;
+    border: 1px solid #A0B3B0;
+    outline: white;
+    color: white;
+}
+
+.main-form{
+    background-color: #24333C;
+    color: white;
+    max-width: 750px;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+}
+
+.buttons *{
+    padding: 0.5em 3em;
+}
+
+.sing-up-button{
+    background-color: #1AB188;
+}
+
+form{
+    max-width: 500px;
+}
+.log-in-button{
+    background-color: #435359;
+    color: #9AADAB;
+}
+
+.log-in-button:hover{
+    background-color: #179A77;
+    color: white;
+}
+
+
+.header{
+    margin: 2em;
+}
+
+.header h2{
+    font-weight: normal;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.name{
+    max-width: 230px;
+}
+
+.name-fields{
+    display: flex;
+    gap: 1.5em
+}
+
+input[type="email"]{
+    flex: 1 1 100%;
+}
+
+
+input[type="password"]{
+    flex: 1 1 100%
+}
+
+input[type="submit"]{
+    padding: 0.5rem;
+    flex-basis: 100%;
+    font-size: 36px;
+    text-transform: uppercase;
+    background-color: #1AB188;
+    border: none;
+    font-weight: bold;
+}
+
+
+
+
+input::placeholder{
+    padding-left: 1em;
+}
+
+.label {
+    position: absolute;
+    transform: translateY(6px);
+    left: 13px;
+    color: rgba(255, 255, 255, 0.5);
+    transition: all 0.25s ease;
+    pointer-events: none;
+    font-size: 24px;
+}
