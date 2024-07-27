@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    height: 100vh;
+    background-color: #eee;
+}
+
+form{
+    margin: auto;
+    padding: 2em;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+}
+
+form h1{
+    margin-bottom: 2em;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.field label{
+    order: -1;
+}
+
+fieldset{
+    padding: 2em;
+    margin-bottom: 1em;
+}
+
+legend{
+    padding: 0 1em;
+}
+
+.field input{
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    padding: 0.5em;
+
+}
+
+.login label{
+    position: absolute;
+}
+
+.bonus-text{
+    opacity: 0.5;
+}
+
+.field:focus-within label,
+.field input:not(:placeholder-shown) + label {
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+#button{
+    padding: 1em;
+    color: black;
+    font-weight: bold;
+    border: none;
+    background-color: #ccc;
+}
+
+#button:hover{
+    color: white;
+    background-color: black;
+}

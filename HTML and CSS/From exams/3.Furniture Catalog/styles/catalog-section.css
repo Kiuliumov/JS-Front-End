@@ -1,0 +1,45 @@
+.catalog-section{
+    max-height: 600px;
+    background-color: #60ACC1;
+}
+
+.catalog-section .container{
+    padding: 0 9em;
+}
+
+.catalog-section .heading{
+    text-align: center;
+    margin: 3em auto;
+}
+
+.catalog-flex-container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3em;
+}
+
+.item{
+    width: 670px;
+    height: 350px;
+    display: flex;
+}
+
+
+.item img{
+    max-width: 390px;
+    object-fit: cover;
+    object-position: 17px;
+}
+
+.main-content{
+    background-color: white;
+    flex: 1;
+    padding: 3em 3em;
+
+}
+
+.main-content h4{
+    text-align: center;
+    padding-bottom: 3em;
+}
+

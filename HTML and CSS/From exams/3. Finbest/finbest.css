@@ -13,6 +13,7 @@ body{
 }
 
 a{
+    display: block;
     text-decoration: none;
     color: inherit;
 }
@@ -75,7 +76,7 @@ nav{
     padding-bottom: 1em;
 }
 
-.download-buttons > *{
+.download-buttons > div{
     padding: 2em;
     background-color: black;
     color: white;

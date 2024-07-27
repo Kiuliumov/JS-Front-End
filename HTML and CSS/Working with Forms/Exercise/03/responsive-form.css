@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font: 16px/1.5 Lato, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+}
+
+
+.responsive-form{
+    background-color: white;
+    width: 40vw;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+
+input{
+    padding: 1em 4em 1em 1em;
+}
+
+
+#name{
+    flex: 1 1 1%;
+}
+
+
+#email{
+    flex: 1 1 25%
+}
+
+input[type="submit"]{
+    flex: 1 1 15%;
+    color: white;
+    padding: 1em;
+    background-color: #FF8C00;
+    border: 1px solid #FF8C00;
+    border-radius: 1em;
+}
+
+input[type="submit"]:hover{
+    background-color: pink;
+
+}

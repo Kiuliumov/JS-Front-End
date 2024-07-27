@@ -1,0 +1,54 @@
+.hero-section{
+    background-color: none;
+    font-weight: bold;
+
+}
+
+
+.hero-section .container {
+    height: 750px;
+    position: relative;
+    padding: 2em;
+}
+
+.hero-section .container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position-y: -17em;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.hero-section .main{
+    margin: 7em 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.hero-section .main h1{
+    font-size: 4em;
+}
+
+.content {
+    display: flex;
+    font-size: 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+}
+
+.button{
+    background-color: #E7EEF0;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    color: #686666
+}
+

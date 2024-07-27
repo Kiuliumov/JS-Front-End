@@ -1,0 +1,15 @@
+@import url(reset.css);
+
+@import url(typography.css);
+
+@import url(elements.css);
+
+@import url(navigation.css);
+
+@import url(hero-section.css);
+
+@import url(catalog-section.css);
+
+@import url(furniture-section.css);
+
+@import url(footer-section.css);

@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    background-color: #eee;
+}
+
+
+form{
+    margin: auto;
+    background-color: white;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.field input:focus + label,
+.field input:not(:placeholder-shown) + label {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 0.3s, opacity 0.3s ease;
+}
+
+
+.field label{
+    order: -1
+}
+
+form h1, .field{
+    margin-bottom: 2em;
+}
+
+
+.field input{
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    padding: 0.5em;
+
+}
+
+label{
+    position: absolute;
+}
+
+.bonus-text{
+    opacity: 0.5;
+}
+
+#button{
+    padding: 1em;
+    color: black;
+    font-weight: bold;
+    border: none;
+    background-color: #ccc;
+}
+
+#button:hover{
+    color: white;
+    background-color: black;
+}
