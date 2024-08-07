@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "02. Photographer Agency",
+			"path": "."
+		},
+		{
+			"name": "images",
+			"path": "../../../../../../../Desktop/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "02. Photographer Agency"
+	}
+}
