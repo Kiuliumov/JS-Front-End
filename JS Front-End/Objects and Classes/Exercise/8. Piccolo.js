@@ -20,3 +20,4 @@ function picolo(array) {
 }
 
 picolo(['IN, ABC123', 'IN, XYZ456', 'OUT, ABC123', 'IN, DEF789']);
+
