@@ -1,16 +1,6 @@
 function solve() {
-    const to = document.querySelector('#selectMenuTo');
-    const hex = new Option('Hexadecimal', 'hexadecimal')
-    const bin = new Option('Binary', 'binary')
-    to.add(hex);
-    to.add(bin);
-
-    const button = document.getElementsByTagName('button')[0];
-    button.addEventListener('click', click)
-}
-
-
-function click(){
+    
+    function click(){
     const number = Number(document.querySelector('#input').value)
     console.log(number);
 
@@ -19,7 +9,7 @@ function click(){
     let result;
     switch (to){
         case 'hexadecimal':
-            result = number.toString(16);
+            result = number.toString(16).toUpperCase();
             break;
         case 'binary':
             result = number.toString(2);
@@ -28,3 +18,21 @@ function click(){
 
     resultField.value = result;
 }
+
+    const to = document.querySelector('#selectMenuTo');
+    const hex = document.createElement('option');
+    hex.value = 'hexadecimal';
+    hex.textContent = 'Hexadecimal';
+
+    const bin = document.createElement('option');
+    bin.value = 'binary';
+    bin.textContent = 'Binary';
+
+    to.appendChild(hex);
+    to.appendChild(bin);
+
+    const button = document.getElementsByTagName('button')[0];
+    button.addEventListener('click', click)
+}
+
+
